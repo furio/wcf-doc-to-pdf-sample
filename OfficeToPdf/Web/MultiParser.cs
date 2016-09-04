@@ -5,6 +5,11 @@ using System.Text.RegularExpressions;
 
 namespace OfficeToPdf.Web
 {
+    /// <summary>
+    /// MultipartParser http://multipartparser.codeplex.com
+    /// Reads a multipart form data stream and returns the filename, content type and contents as a stream.
+    /// 2009 Anthony Super http://antscode.blogspot.com
+    /// </summary>    
     public class MultipartParser
     {
         public MultipartParser(Stream stream)
